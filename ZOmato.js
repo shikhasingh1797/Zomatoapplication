@@ -99,7 +99,7 @@ function second(){
         if (user=="mutton" || user=="chicken" || user=="fish" || user=="egg"){
             console.log(" 1-Annpoorna Restaurant(Rating:5.6)\n","2-Basant Leela Restaurant(Rating:5.4)\n","3-Ham Tum Restaurant(Rating:4.9)")}
             var non=readlineSync.question("Choose Restaurant:")
-            console.log("🎄🎄🎄🎄🎄🎄☘️🍁☘️🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄☘️🍁☘️🎄🎄🎄🎄🎄🎄")
+            console.log("🎄🎄🎄🎄🎄🎄🎄☘️🍁☘️🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄☘️🍁☘️🎄🎄🎄🎄🎄🎄🎄")
             var mutton={
                 "Dish":"Mutton",
                 "Dish Price":"Rs.550",
@@ -156,7 +156,7 @@ function second(){
         payloc() 
         rate() }}}
 function payloc(){
-    console.log("🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄")
+    console.log("🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄🎄")
     console.log("Add payment method\n","1-UPI Net Banking\n","2-Cash on delivery")
     var pay=readlineSync.question("Enter payment method:")
     if (pay=="1"){
